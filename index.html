@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="header">Aren't you a lil old for tic-tac-toe??</div>
+    <div id="container">
+        <div id="game-area">
+            <table>
+                <tr>
+                    <td><button id="cell-1" class="game-btn"></button></td>
+                    <td><button id="cell-2" class="game-btn"></button></td>
+                    <td><button id="cell-3" class="game-btn"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="cell-4" class="game-btn"></button></td>
+                    <td><button id="cell-5" class="game-btn"></button></td>
+                    <td><button id="cell-6" class="game-btn"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="cell-7" class="game-btn"></button></td>
+                    <td><button id="cell-8" class="game-btn"></button></td>
+                    <td><button id="cell-9" class="game-btn"></button></td>
+                </tr>
+            </table>
+        </div>
+        <div id="info">
+            <h1 id="tit">Score</h1>
+            <div class="p-score">
+                <p>Player 1:</p>
+                <p id="ply1"></p>
+            </div>
+            <div class="p-score">
+                <p>Player 2:</p>
+                <p id="ply2"></p>
+            </div>
+
+            <div id="info-btn">
+                <button id="reset">Reset</button>
+                <button id="new-game">New Game</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

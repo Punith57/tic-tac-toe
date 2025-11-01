@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: red;
+    color: white;
+}
+#container{
+    display: flex;
+}
+#game-area{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: -2px white;
+    margin: white;
+    
+}
+
+.game-btn{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    font-size: 160px;
+    color:rgb(242, 120, 120) ;
+    border-radius: 20px;
+    border-color: rgb(242, 120, 120);
+}
+
+.game-btn:hover{
+    background-color: rgb(246, 160, 160);
+}
+#info{
+    padding-left: 160px;
+}
+#tit{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px red;
+}
+.p-score{
+    display: flex;
+}
+
+#info-btn{
+    display: flex;
+}
+
+#info-btn button{
+    background-color: rgb(241, 241, 241);
+    width: 130px;
+    height: 80px;
+    margin: 80px;
+    border-radius: 15px;
+}
+#info-btn button:hover{
+    background-color: rgb(246, 160, 160);
+}
